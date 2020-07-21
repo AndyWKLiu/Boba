@@ -4,23 +4,27 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     </head>
-<body>
-    <h1>
+<body id="background">
+    <h1 id="title">
         Boba & Tea 🍵
     </h1>
-    <p id="header">
-        <button onclick="location.href='welcome.html'" type="button">Welcome Page</button>
-        <button onclick="location.href='Origin.html'" type="button">Origin</button>
-        <button type="button">Favorites</button>
+    <p>
+        <ul id="navbar">
+            <li><a onclick="location.href='index.html'" type="button">Welcome Page</a></li>
+            <li><a onclick="location.href='Origin.html'" type="button">Origin</a></li>
+            <li><a onclick="location.href='Favorites.html'" type="button">Favorites</a></li>
+        </ul>
     </p>
-    <h2 style="text-align:center">
-        <button onclick="location.href='store.html'" type="button">stores</button>
-        <button onclick="location.href='drinks.html'" type="button">drinks</button>
+    <h2>
+        <ul id="quote">
+            <li><a onclick="location.href='store.html'" type="button">Stores</a></li>
+            <li><a onclick="location.href='drinks.html'" type="button">Drinks</a></li>
+        </ul>
     </h2>
-    <div class="container">
+    <div class="container" id="middle">
         <div class="row">
             <div class="col-lg-4">
-                <img src="onezolocation.jpg" width="300" height="250">
+                <img src="onezolocation.jpg" width="300" height="250" id="stores">
                     <div style="text-align:center">
                         <br>Address: 362 8th St unit a, Oakland, CA 94607</br>
                         <br>Hours:12PM-6PM Everyday</br>
@@ -28,7 +32,7 @@
                     </div>
             </div>
             <div class="col-lg-4">
-                <img src="itealocation.jpg" width="300" height="250">
+                <img src="itealocation.jpg" width="300" height="250" id="stores">
                     <div style="text-align:center">
                         <br>Address: 388 9th St #125a, Oakland, CA 94607</br>
                         <br>Hours:11AM-6PM Everyday</br>
@@ -36,7 +40,7 @@
                     </div>
             </div>
             <div class="col-lg-4">
-                <img src="t4location.jpg" width="300" height="250">
+                <img src="t4location.jpg" width="300" height="250" id="stores">
                     <div style="text-align:center">
                         <br>Address: 1068 Webster St, Oakland, CA 94607</br>
                         <br>Hours: 11AM-10PM</br>
@@ -45,6 +49,16 @@
                     </div>
             </div>
         </div>
+    </div>
+    <div class="footer">
+        <p>
+            Contact:
+            <ul>
+                <li>
+                    Instagram: mr_wafffles
+                </li>
+            </ul>
+        </p>
     </div>
 </body>
 </hmtl>

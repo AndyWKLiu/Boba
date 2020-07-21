@@ -4,51 +4,65 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     </head>
-<body>
-    <h1>
+<body id="background">
+    <h1 id="title">
         Boba & Tea 🍵
     </h1>
-    <p id="header">
-        <button onclick="location.href='welcome.html'" type="button">Welcome Page</button>
-        <button onclick="location.href='Origin.html'" type="button">Origin</button>
-        <button onclick="location.href='Favorites.html'" type="button">Favorites</button>
+    <p>
+        <ul id="navbar">
+            <li><a onclick="location.href='index.html'" type="button">Welcome Page</a></li>
+            <li><a onclick="location.href='Origin.html'" type="button">Origin</a></li>
+            <li><a onclick="location.href='Favorites.html'" type="button">Favorites</a></li>
+        </ul>
     </p>
-    <h2 style="text-align:center">
-        <button onclick="location.href='store.html'" type="button">stores</button>
-        <button type="button">drinks</button>
+    <h2>
+        <ul id="quote">
+            <li><a onclick="location.href='store.html'" type="button">Stores</a></li>
+            <li><a onclick="location.href='drinks.html'" type="button">Drinks</a></li>
+        </ul>
     </h2>
-    <h3 style="text-align:center">
+    <h3 style="text-align:center" id="middle">
         These are some of my favorite drinks that I would recommend to try out. 
     </h3>
-    <div class="container">
+    <div class="container" id="description">
         <div class="row">
             <div class="col-lg-4">
-                <img src="freshaloe.jpg" width="250" height="350">
+                <img src="freshaloe.jpg" width="250" height="350" id="favorites">
                     <div>Fresh Mango with Aloe from itea</div>
             </div>
             <div class="col-lg-4">
-                <img src="gongchamilktea.jpg" width="250" height="350">
+                <img src="gongchamilktea.jpg" width="250" height="350" id="favorites">
                     <div>Milk tea with Pearl, regular sugar, and no ice from Gongcha</div>
             </div>
             <div class="col-lg-4">
-                <img src="greenteawithmangoicecream.jpg" width="250" height="350">
+                <img src="greenteawithmangoicecream.jpg" width="250" height="350" id="favorites">
                     <div>Green tea with Mango Ice Cream, no Ice, and regular sugar from t4</div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-4">
-                <img src="onezo.jpg" width="250" height="350">
+                <img src="onezo.jpg" width="250" height="350" id="favorites">
                     <div>I don't remember what this drink is called so show this picture to Onezo and hopefully they'll know :)</div>
             </div>
             <div class="col-lg-4">
-                <img src="sago.jpg" width="250" height="350">
+                <img src="sago.jpg" width="250" height="350" id="favorites">
                     <div>Mango sago from itea</div>
             </div>
             <div class="col-lg-4">
-                <img src="strawberryandmango.jpg" width="250" height="350">
+                <img src="strawberryandmango.jpg" width="250" height="350" id="favorites">
                     <div>Strawberry and Mango Tea with no aloe, no ice, and regular sugar from itea</div>
             </div>
         </div>
+    </div>
+    <div class="footer">
+        <p>
+            Contact:
+            <ul>
+                <li>
+                    Instagram: mr_wafffles
+                </li>
+            </ul>
+        </p>
     </div>
 </body>
 </hmtl>

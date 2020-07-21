@@ -4,25 +4,36 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     </head>
-<body>
-    <h1>
+<body id="background">
+    <h1 id="title">
         Boba & Tea 🍵
     </h1>
-    <p id="header">
-        <button onclick="location.href='welcome.html'" type="button">Welcome Page</button>
-        <button type="button">Origin</button>
-        <button onclick="location.href='Favorites.html'" type="button">Favorites</button>
+    <p>
+        <ul id="navbar">
+            <li><a onclick="location.href='index.html'" type="button">Welcome Page</a></li>
+            <li><a onclick="location.href='Origin.html'" type="button">Origin</a></li>
+            <li><a onclick="location.href='Favorites.html'" type="button">Favorites</a></li>
+        </ul>
     </p>
-    <h2 style="text-align:center">
+    <h2 style="text-align:center" id="quote">
         Origin of Boba
     </h2>
-    <p style="text-align:center">
-        <img src="tea.jpg" width="240" height="270">
-        <img src="pearl.jpg" width="240" height="270">
+    <p style="text-align:center" id="middle">
+        <img src="tea.jpg" width="240" height="270" id="origin">
+        <img src="pearl.jpg" width="240" height="270" id="origin">
     </p>
-    <p style="text-align:center"> 
+    <p style="text-align:center" id="description"> 
         <br>Boba originated in the late 80s in Taiwan thanks to the founder, Liu Han-Chieh, who came up with the idea after seeing coffee served cold.</br>
         <br>Tea originated in India where it was used as a medical drink by various groups in the region.</br>
     </p>
+    <div class="footer">
+        <p>
+            Contact:
+            <ul>
+                <li>
+                    Instagram: mr_wafffles
+                </li>
+            </ul></p>
+    </div>
 </body>
 </hmtl>
